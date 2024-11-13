@@ -1,0 +1,38 @@
+
+
+
+   .customContainer {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* Large shadow */
+    border-radius: 8px; /* Rounded corners */
+    width: 80%; /* Default width */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 8px; /* Space between items */
+  }
+  
+  /* Adjustments for medium screens (768px and above) */
+  @media (min-width: 768px) {
+    .customContainer {
+      width: 66.67%; /* 2/3 width */
+      flex-direction: row; /* Layout items in a row */
+      justify-content: space-around; /* Space items evenly */
+    }
+  }
+  
+  .customTextHeading {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .customTextHeading:hover {
+    color: #7dd3fc; /* Equivalent to blue-300 */
+  }
+  
+.customHover{
+    margin-left: 0.5rem;
+}
+
+  .customHover:hover {
+    color: #93c5fd; /* This is the blue-300 color */
+  }
+  /* header css completed */
