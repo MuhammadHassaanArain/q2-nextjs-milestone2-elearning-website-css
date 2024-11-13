@@ -36,3 +36,42 @@
     color: #93c5fd; /* This is the blue-300 color */
   }
   /* header css completed */
+
+
+  .customSpaceY {
+    display: grid;
+    gap: 0.75rem; /* This is equivalent to the 3 unit in space-y-3 (which is 12px) */
+  }
+  /* Base styles */
+.customFlex {
+  display: block; /* Default to block on smaller screens */
+}
+
+/* Media query for medium screens and above */
+@media (min-width: 768px) {
+  .customFlex {
+    display: flex; /* Switch to flex layout */
+    justify-content: space-around; /* Distribute items evenly with space around */
+  }
+}
+/* Default styles */
+.customSpace {
+  font-weight: bold; /* Equivalent to font-bold */
+  display: flex;
+  gap: 8px; /* Equivalent to space-x-2 (8px between items) */
+}
+
+/* Media query for medium screens and above */
+@media (min-width: 768px) {
+  .customSpace {
+    gap: 16px; /* Equivalent to space-x-4 (16px between items) */
+  }
+}
+.customTextHeading1 {
+  
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.customTextHeading1:hover {
+  color: #7dd3fc; /* Equivalent to blue-300 */
+}
