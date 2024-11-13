@@ -1,0 +1,47 @@
+@media (min-width: 768px) {
+    .customClass123 {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  @media (min-width: 768px) {
+    .customClass11 {
+      width: 33.33%;
+    }
+  }
+  .customClass3 {
+    padding: 0.5rem; 
+    border-radius: 0.25rem; 
+    /* background-color: #2e2e31;   */
+    background-color: #e5e5e7;
+    outline: none;  
+    transition: border 0.3s ease;  
+  }
+  
+  .customClass3:hover {
+    border: 2px solid #2563eb; ;  
+  }
+  .customClass22 {
+    color:#e5e5e7; 
+    background-color: #2563eb; ;  
+    border: #2563eb; ;
+    padding: 0.5rem;  
+    margin-top: 1rem;  
+    font-weight: bold; 
+    transition: background-color 0.3s ease;  
+  }
+  
+  .customClass22:hover {
+    background-color: hsl(221, 78%, 56%); ;
+    border:hsl(221, 78%, 56%);; 
+  }
+  
+
+  .custombox1 {
+    color: #1a202c;
+   
+    border: 1px solid #e5e7eb; /* Equivalent to border border-gray-200 */
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04); /* Equivalent to shadow-xl */
+  }
+ 
