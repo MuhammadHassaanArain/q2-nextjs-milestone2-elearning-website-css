@@ -94,7 +94,7 @@ export default function Contact() {
                   width: "64px",
                   borderRadius: "0.375rem",
                   height: "48px",
-                  background: "#2563eb; ",
+                  background: "#2563eb ",
                   padding: "8px",
                   marginRight: "16px",
                   marginLeft: "16px",
@@ -103,7 +103,7 @@ export default function Contact() {
               <p style={{ display: "flex", color:"#1a202c",flexDirection: "column" }}>
                 <span
                   style={{
-                    color: "#2563eb; ",
+                    color: "#2563eb",
                     fontWeight: 700,
                     fontFamily: "monospace",
                   }}
@@ -119,7 +119,7 @@ export default function Contact() {
                   width: "64px",
                   borderRadius: "0.375rem",
                   height: "48px",
-                  background: "#2563eb; ",
+                  background: "#2563eb",
                   padding: "8px",
                   marginRight: "16px",
                   marginLeft: "16px",
@@ -128,7 +128,7 @@ export default function Contact() {
               <p style={{ display: "flex", flexDirection: "column", color:"#1a202c" }}>
                 <span
                   style={{
-                    color: "#2563eb; ",
+                    color: "#2563eb",
                     fontWeight: 700,
                     fontFamily: "monospace",
                   }}
@@ -145,7 +145,7 @@ export default function Contact() {
                   width: "64px",
                   borderRadius: "0.375rem",
                   height: "48px",
-                  background: "#2563eb; ",
+                  background: "#2563eb",
                   padding: "8px",
                   marginRight: "16px",
                   marginLeft: "16px",
@@ -154,7 +154,7 @@ export default function Contact() {
               <p style={{ display: "flex", flexDirection: "column", color:"#1a202c" }}>
                 <span
                   style={{
-                    color: "#2563eb; ",
+                    color: "#2563eb",
                     fontWeight: 700,
                     fontFamily: "monospace",
                   }}
