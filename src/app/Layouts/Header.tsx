@@ -30,10 +30,10 @@ function Header() {
             Courses
           </Link>
           <Link href="/about" className="customHover">
-            About Us
+            About
           </Link>
           <Link href="/contact" className="customHover">
-            Contact Us
+            Contact
           </Link>
         </nav>
       </div>

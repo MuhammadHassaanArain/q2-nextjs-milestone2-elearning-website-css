@@ -46,6 +46,12 @@
   .customSpaceX4 {
     display: flex;
     gap: 1rem; 
+    justify-content: center;
+  }
+  @media (min-width: 768px){
+    .customSpaceX4{
+      justify-content: start;
+    }
   }
 
   .customHoverBlue {

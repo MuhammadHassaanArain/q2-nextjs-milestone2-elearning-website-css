@@ -16,7 +16,9 @@ function Footer() {
       >
         <div className="customFlex">
           <h2 style={{ fontWeight: 700 }}>LearnHub</h2>
-          <nav className="customSpace">
+          <nav className="customSpace" 
+          style={{display:"flex",justifyContent:"center"}}
+          >
             <Link href="/" className="customTextHeading1">
               Home
             </Link>
@@ -24,13 +26,13 @@ function Footer() {
               Courses
             </Link>
             <Link href="/about" className="customTextHeading1">
-              About Us
+              About
             </Link>
             <Link href="/contact" className="customTextHeading1">
-              Contact Us
+              Contact
             </Link>
           </nav>
-          <div className="customSpace">
+          <div className="customSpace"  style={{display:"flex",justifyContent:"center"}}>
             <a href="" className="customTextHeading1">
               LinkedIn
             </a>
