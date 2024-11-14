@@ -4,7 +4,7 @@ import Link from "next/link";
 import "../styles/HomePage.css";
 import TopCourses from "../components/TopCourses";
 import OurStatus from "../components/ourStatus";
-// import Testenomials from "./components/Testenomials";
+import Testenomials from "../components/Testinomials";
 export default function Home() {
   return (
     <main>
@@ -52,7 +52,7 @@ export default function Home() {
       </section>
       <TopCourses/>
     <OurStatus/>
-    {/* <Testenomials/> */}
+    <Testenomials/>
     </main>
   );
 }
