@@ -3,8 +3,7 @@ import HomeImage from "../../public/images/Images/homepageimageforlearnhub.jpg";
 import Link from "next/link";
 import "../styles/HomePage.css";
 import TopCourses from "../components/TopCourses";
-
-// import OurStatus from "./components/OurStatus";
+import OurStatus from "../components/ourStatus";
 // import Testenomials from "./components/Testenomials";
 export default function Home() {
   return (
@@ -52,7 +51,7 @@ export default function Home() {
         </div>
       </section>
       <TopCourses/>
-    {/* <OurStatus/> */}
+    <OurStatus/>
     {/* <Testenomials/> */}
     </main>
   );

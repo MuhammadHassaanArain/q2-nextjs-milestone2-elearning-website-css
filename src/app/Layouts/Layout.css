@@ -1,31 +1,27 @@
-
-
-
-   .customContainer {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* Large shadow */
-    border-radius: 8px; /* Rounded corners */
-    width: 80%; /* Default width */
+.customContainer {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); 
+    border-radius: 8px; 
+    width: 80%;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    gap: 8px; /* Space between items */
+    flex-direction: column; 
+    gap: 8px; 
   }
   
-  /* Adjustments for medium screens (768px and above) */
   @media (min-width: 768px) {
     .customContainer {
-      width: 66.67%; /* 2/3 width */
-      flex-direction: row; /* Layout items in a row */
-      justify-content: space-around; /* Space items evenly */
+      width: 66.67%;
+      flex-direction: row; 
+      justify-content: space-around; 
     }
   }
   
   .customTextHeading {
-    font-size: 1.5rem; /* Equivalent to text-2xl */
-    transition: color 0.3s ease; /* Smooth color transition on hover */
+    font-size: 1.5rem; 
+    transition: color 0.3s ease; 
   }
   
   .customTextHeading:hover {
-    color: #7dd3fc; /* Equivalent to blue-300 */
+    color: #7dd3fc;
   }
   
 .customHover{
@@ -33,45 +29,41 @@
 }
 
   .customHover:hover {
-    color: #93c5fd; /* This is the blue-300 color */
+    color: #93c5fd; 
   }
-  /* header css completed */
 
 
   .customSpaceY {
     display: grid;
-    gap: 0.75rem; /* This is equivalent to the 3 unit in space-y-3 (which is 12px) */
+    gap: 0.75rem;
   }
-  /* Base styles */
 .customFlex {
-  display: block; /* Default to block on smaller screens */
+  display: block; 
 }
 
-/* Media query for medium screens and above */
 @media (min-width: 768px) {
   .customFlex {
-    display: flex; /* Switch to flex layout */
-    justify-content: space-around; /* Distribute items evenly with space around */
+    display: flex; 
+    justify-content: space-around; 
   }
 }
-/* Default styles */
 .customSpace {
-  font-weight: bold; /* Equivalent to font-bold */
+  font-weight: bold; 
   display: flex;
-  gap: 8px; /* Equivalent to space-x-2 (8px between items) */
+  gap: 8px; 
 }
 
-/* Media query for medium screens and above */
+
 @media (min-width: 768px) {
   .customSpace {
-    gap: 16px; /* Equivalent to space-x-4 (16px between items) */
+    gap: 16px;
   }
 }
 .customTextHeading1 {
   
-  transition: color 0.3s ease; /* Smooth color transition on hover */
+  transition: color 0.3s ease; 
 }
 
 .customTextHeading1:hover {
-  color: #7dd3fc; /* Equivalent to blue-300 */
+  color: #7dd3fc;
 }

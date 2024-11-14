@@ -1,0 +1,21 @@
+.customFlex1111 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .customFlex1111 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-flex {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+  }
+}
