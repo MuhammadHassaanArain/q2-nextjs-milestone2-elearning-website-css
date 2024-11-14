@@ -1,0 +1,46 @@
+/* Default style for small screens */
+.customGrid {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   width:91.6667% ;
+  }
+  
+  /* Medium screens (equivalent to md:grid and md:grid-cols-2 in Tailwind) */
+  @media (min-width: 768px) {
+    .customGrid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+  }
+  
+
+  @media (min-width: 1024px) {
+    .customGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+
+
+
+.sectionCss {
+background-color: white;
+padding: 12px;
+margin-top: 16px;
+margin-bottom: 16px;
+color: #1a202c; /* Equivalent to text-gray-900 */
+border-radius: 0.375rem; /* Equivalent to rounded */
+border: 1px solid #e5e7eb; /* Equivalent to border and border-gray-200 */
+width: 83.3333%; /* Equivalent to w-10/12 */
+box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.sectionH3 {
+ 
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #2d3748; 
+    font-size: 1.5rem;
+}
